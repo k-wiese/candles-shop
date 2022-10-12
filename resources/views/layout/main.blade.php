@@ -17,13 +17,13 @@
         <link rel="icon" type="image/png" sizes="16x16" href="{{asset('img/favicon-16x16.png')}}">
         <link rel="manifest" href="{{asset('img/site.webmanifest')}}">
     </head>
-    <body class="bg-color">
+    <body class=" bg-color d-flex flex-column min-vh-100">
 
     @livewire('navbar')
 
     @yield('content')
 
-    <div class="container text-md-center text-sm-center px-4">
+    <div class="container text-md-center text-sm-center px-4 mt-auto">
         <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
           <p class="col-md-4 mb-0 text-info">&copy; 2022 Candles and Art</p>
       
@@ -40,6 +40,6 @@
       </div>
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    @livewireScripts
+    @livewireScripts 
     </body>
 </html>
