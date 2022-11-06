@@ -23,7 +23,7 @@
                         <input type="hidden" name="product_id" value="{{$product->id}}">
                         <label for="Quantity"> <p>Quantity</p> 
 
-                            <input type="number" id="quantity" class="form-control" value="1" name="quantity"> 
+                            <input type="number" id="quantity" class="form-control" value="1" min="1" name="quantity"> 
                         </label>
                         <div class="p-3">
 
